@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RailsWikinimous</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <nav class="navbar navbar-light bg-light">
+  <%= link_to "WIKINIMOUS",  articles_path %>
+  <%= link_to "Create an article",  new_article_path %>
+</nav>
+  <div class="container">
+  <%= yield %>
+  </div>
+  </body>
+</html>

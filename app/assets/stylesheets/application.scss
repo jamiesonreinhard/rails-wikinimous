@@ -1,0 +1,44 @@
+@import "bootstrap/scss/bootstrap";
+
+body {
+  background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+.container {
+  padding: 3rem 0;
+  width: 60%;
+}
+
+h1, h2 {
+  padding: 1rem 0;
+}
+
+p {
+  padding: 1rem 0;
+}
+
+ul {
+  margin: 1rem 0;
+  list-style: none;
+}
+
+li {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.navbar a {
+  color: black;
+  
+  &:hover {
+    color: black;
+  }
+}
